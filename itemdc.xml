@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raccolta xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="albadec&#233;spedesproject"> <!--xml:id fa parte della sintassi xml-->
+	<opera xml:id="quadernoproibito">
+		<dc:title>Quaderno Proibito</dc:title>
+		<dc:creator>Alba de C&#233;spedes</dc:creator>
+		<dc:publisher>Mondadori</dc:publisher>
+		<dc:subject>scrittura diaristica</dc:subject>
+		<dc:subject>letteratura femminista</dc:subject>
+		<dc:subject>dopoguerra italiano</dc:subject>
+		<dc:subject>scrittrici italiane del '900</dc:subject>
+		<dc:description xml:lang="it">Pubblicato a puntate tra il 1950 e il 1951, e un anno dopo in volume, Quaderno proibito è considerato il capolavoro di Alba de C&#233;spedes, un libro che è testimonianza storica di un'epoca e tributo a una generazione pre-femminista decisiva per tutte le rivoluzioni successive; ma soprattutto una magistrale prova letteraria capace di svelare l'identità, frammentata e mutevole, dell'essere umano - quarta di copertina</dc:description>
+		<dc:date>1954</dc:date>
+		<dc:type>testo in prosa, romanzo</dc:type>
+		<dc:format>testo stampato</dc:format>
+		<dc:format>brossura, 264 pagine</dc:format>
+		<dc:identifier>ISBN: 9788851523114</dc:identifier> 
+		<dc:source>de C&#233;spedes A., <i>Quaderno Proibito</i>, Milano, Mondadori, 1954</dc:source> <!--sorgente del contenuto pubblicato in quella pagina-->
+		<dc:language>it</dc:language>
+		<dc:relation>Leto M.,<i>Quaderno Proibito,</i>, 1980, adattamento cinematografico Rai (https://youtu.be/h5Y_aCeCagc)</dc:relation>
+		<dc:coverage>secondo dopoguerra italiano</dc:coverage>
+		<dc:coverage>anni '50/'60</dc:coverage>
+		<dc:coverage xsi:type="dcterms:GN" ref="http://www.geonames.org/3173434/citta-metropolitana-di-milano.html">Milano - Archivio Mondadori</dc:coverage>
+		<dc:rights>Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 (CC BY-NC-ND 3.0 IT)</dc:rights>
+	</opera>
+</raccolta>	

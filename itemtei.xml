@@ -1,0 +1,125 @@
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+	<tei:teiHeader> 
+		<fileDesc>
+    			<titleStmt>
+    				<title>Quaderno Proibito</title>
+    				<author ref="#ADC">de C&#233;spedes, Alba (1911–1997)</author>
+    					<respStmt>
+    						<resp>Editore versione cartacea</resp>
+    						<name xml:id="AM">Arnolodo Mondadori</name>
+    						<resp>Trascrizione</resp>
+    						<name xml:id="SP">Sofia Pellicciotti</name>
+    					</respStmt>
+    			</titleStmt>
+    			<publicationStmt>
+    				<p>Trascrizione digitale del romanzo</p>
+    			</publicationStmt>
+    			<sourceDesc>
+    					<monogr>
+    						<author>Alba de C&#233;spedes</author>
+    						<title>Quaderno Proibito</title>
+    						<edition>Oscar Mondadori</edition>
+    						<publisher>Mondadori</publisher>
+    							<pubplace>Milano, Italia</pubplace>
+    						<address>
+								<addrLine>url:https://www.mondadori.it</addrLine>
+							</address>
+    						<date>19 aprile 2022</date>
+    						<extent>264 p., Brossura</extent>
+    						</monogr>
+    					<availability>
+    						<licence>Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Italia</licence>
+    				</availability>
+    			</sourceDesc>		
+		 </fileDesc>
+    </tei:teiHeader>
+	<text>        			
+		<front>
+			<div type="title">Quaderno Proibito</div>
+				<div type="epigraph" rend="italic">
+					<lg>
+					<l>Se&#241;or don Blas, de qu&#233; libro</l>
+					<l>ha sacado ustedese texto?</l>
+					<l>Del teatro de la vida</l>
+					<l>humana que es donde leo</l></lg>
+				</div>
+				<div type="epigraph author">RAM&#211;N DE LA CRUZ</div>
+
+		</front>
+		<body>
+			<div type="section"><head rend="italic">26 novembre 1950</head>
+				<p n="1">Ho fatto male a comperare questo quaderno, malissimo. Ma ormai &#232; troppo tardi per rammanicarmene, il danno &#232; fatto. Non so neppure che cosa m'abbia spinto ad acquistarlo, &#232; stato un caso. Io non ho mai pensato di tenere un diario, anche perch&#233; un diario deve rimanere segreto e, perc&#242;, bisognerebbe nasconderlo a 
+				<name type="person"> Michele</name>
+				e ai
+				<rs type="person" ref="Riccardo,Mirella">ragazzi</rs>
+				.Non mi piace tenere qualcosa nascosto; del resto, in casa nostra c'&#232; tanto poco spazio che sarebbe impossibile riuscirvi. &#200; andata così: 
+				<num type="cardinale" value="15">quindici</num> 
+				giorni fa, era domenica, uscii di casa piuttosto al mattino. Andavo a comprerare le sigarette per 
+				<name type="person"> Michele</name>
+				, volevo che, svegliandosi, le trovasse sul comodino: la domenica dorme sempre fino a tardi. Era una giornata bellissima, calda, nonostante l'autunno inoltrato. Provavo un'allegria infantile nel camminare per le strade, dalla parte del sole, e vedere gli alberi ancora verdi e le persone contente come sembrano sempre nei giorni festivi. Sicch&#232; decisi di fare una breve passeggiata, spingermi fino alla tabaccheria ch'&#232; nella piazza. Lungo il cammino vidi che molti si fermavano presso la bancerella della 
+				<rs type="person">fioraia</rs>
+				e mi fermai anch'io, comperai un mazzo di 
+				<rs type="flower">calendole</rs>
+				. 
+				<said type="diretto" who="la fioraia">&#171;Ci vogliono un po' di fiori sulla tavola, la domenica&#187;</said>
+				mi disse la 
+				<rs type="person">fioraia</rs>
+				:
+				<said type="diretto" who="fioraia">&#171;gli uomini ci fanno caso&#187;</said>
+				. Io sorrisi, annuendo: ma, in verit&#224;, comperando quei fiori non pensavo a 
+				<name type="person">Michele</name>
+				n&#232; a 
+				<name type="person">Riccardo</name>
+				, che pure li apprezza molto: li comperavo per me, per tenerli in mano mentre camminavo. Dal 
+				<rs type="person">tabaccaio</rs> 
+				c'era molta gente. Nell'aspettare il mio turno, col danaro gi&#224; pronto, vidi una pila di quaderni nella vetrina. Erano quaderni neri, lucidi, spessi, di quelli che usano a scuola e sui quali - prima ancora d'incominciarli - scrivevo subito, in prima pagina, con trasporto, il mio nome: 
+				<name type="person">Valeria</name>
+				. &#171;Mi dia anche un quaderno&#187; dissi frugando nella borsa per trovare altro danaro. Ma, quando rialzai gli occhi, vidi che il 
+				<rs type="person">tabaccaio</rs> 
+				aveva assunto un'espressione severa per dirmi:
+				<said type="diretto" who="tabaccaio">&#171;Non si pu&#242;, &#232; proibito&#187;</said>
+				. Mi spieg&#242; che 
+				<said type="indiretto" who="tabaccaio"> l'
+					<rs type="person">agente</rs> 
+					stava di guardia sulla porta, ogni domenica, affinch&#233; si vendessero tabacchi soltanto, null'altro.</said> 
+				Ero rimasta sola nel negozio. 
+				<said type="diretto" who="Valeria">&#171;Ne ho bisogno&#187;</said>
+				gli dissi 
+				<said type="diretto" who="Valeria">&#171;ne ho bisogno assolutamente.&#187;</said> 
+				Parlavo sottovoce, concitata, ero pronta a insistere, a scongiurare. Allora egli si guard&#242; attorno poi, lesto, prese un quaderno e lo tese attraverso il bancone, dicendo:
+				<said type="diretto" who="tabaccaio">&#171;Lo metta sotto il cappotto&#187;</said>
+				.</p>
+				<p n="2">Lo tenni sotto il cappotto lungo tutta la strada, fino a casa. Temevo che scivolasse, che cadesse in terra mentre la 
+				<rs type="person">portiera</rs> 
+				mi raccontava non so che cosa della colonna del gas. Ero rossa in viso nell'aprire la porta con la chiave: feci per andare in camera mia difilato, ma mi rammentai che 
+				<name type="person">Michele</name> 
+				era ancora a letto. Intanto 
+				<name type="person">Mirella</name> mi chiamava:
+				<said type="diretto" who="Mirella">&#171;
+					<name type="person" key="Valeria">Mamma</name>
+					...?&#187;
+				</said>
+				. 
+				<name type="person">Riccardo</name> 
+				chiedeva 
+				<said type="diretto" who="Riccardo">&#171;hai comperato il giornale, 
+					<name type="person" key="Valeria">mamma</name>?&#187;
+				</said>
+				. Ero agitata, confusa, temevo che non sarei riuscita a rimanere sola mentre mi toglievo il cappotto. 
+				<said type="diretto" who="Valeria">&#171;Lo metter&#242; nell'armadio&#187;</said> 
+				pensavo, 
+				<said type="diretto" who="Valeria">&#171;no, 
+					<name type="person">Mirella</name> 
+					lo apre spesso per prendere qualcosa di mio da indossare, un paio di guanti, o una camicetta. Il com&#242;, 
+						<name type="person">Michele</name>
+						lo apre sempre. La scrivania &#232; occupata ormai da 
+						<name type="person">Riccardo</name>
+						.&#187; Consideravo che non avevo pi&#249; in tutta la casa un cassetto, un ripostiglio che fosse rimasto mio. Mi proponevo di far valere da quel giorno i miei diritti.
+				</said>
+				</p>
+			</div>
+		</body>
+	</text>
+</tei:TEI>
+
+				

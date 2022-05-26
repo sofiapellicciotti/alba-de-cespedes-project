@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <title>Catalogo Lista</title>
+
+  <!-- I META per metadatare= descrivere il mio documento -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1-0"/> <!--Per rendere responsive-->
+    <meta name="keywords" content="Alba de C&#233;spedes Project, Sofia Pellicciotti, letteratura"/>
+    <meta name="description" content="Opere e biografia di Alba de C&#233;spedes"/>
+    <meta name="author" content="Sofia Pellicciotti"/>
+
+  <!--BOOTSTRAP CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <!--FOGLIO DI STILE-->
+  <link rel="stylesheet" href="fogliodistile.css">
+</head>
+<body>
+  <header>
+    <!--NAVBAR-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-danger">
+      <a class="navbar-brand" href="index.html"><h1 class="text-white">Alba de C&#233;spedes Project</h1>
+      </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Vita</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="deckbrowsing.html" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Opere
+            </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item active" href="deckbrowsing.html">Tutte le opere</a></li>
+                  <li><a class="dropdown-item" href="#">Prosa</a></li>
+                  <li><a class="dropdown-item" href="#">Poesia</a></li>
+                  <li><a class="dropdown-item" href="#">Teatro</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Il fondo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="credits.html">Credits</a>
+              </li>
+              
+          </ul>
+          <form class="d-flex">
+              <input class="form-control mr-2" type="search" placeholder="Cerca nel sito" aria-label="Cerca">
+              <button class="btn btn-outline-light" type="submit">Cerca</button>
+          </form>
+      </div>
+    </nav>
+  </header>
+  <section>
+   <div class="container-fluid">
+      <div class="row">
+        <div class="container-fluid">
+            <br><h2>Le opere</h2></br>
+        </div>
+      </div>
+      <div class="row">
+        <!--INIZIO COLONNA SX-->
+        <div class="col-md-3">
+          <div class="container-fluid">
+            <div class="row">
+              <!--BREADCRUMBS-->
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb btn btn-outline-danger bg-white">
+                  <li class="breadcrumb-item"><a class="bread-crumb-link text-danger" href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a class="breadcrumb-link text-danger" href="autore.html">Autrice</a></li>
+                  <li class="breadcrumb-item text-danger" aria-current="page">Opere</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="row">
+              <div class="checkbox-container">
+                <h4 class="mb-0" style="text-align:left">Ordina per:</h4>
+                <div class="btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-outline-danger active mt-1">
+                    <input type="radio" checked> A-Z
+                  </label>
+                  <label class="btn btn-outline-danger mt-1">
+                    <input type="radio"> Z-A
+                  </label><br>
+                  <label class="btn btn-outline-danger mt-1">
+                    <input type="radio">Ordine cronologico
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="checkbox-container mt-4">
+                <h4 class="mb-0" style="text-align:left">Filtra la lista:</h4>
+                <div class="dropdown dropright mt-1">
+                  <button class="btn btn-outline-danger btn-white dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genere</button>
+                  <div class="dropdown-menu p-3">
+                    <input type="checkbox">
+                    <label>Prosa</label><br>
+                    <input type="checkbox">
+                    <label>Poesia</label><br>
+                    <input type="checkbox">
+                    <label>Teatro</label><br>
+                    <button type="button" class="btn btn-danger mt-2">Filtra</button>
+                  </div>
+                </div>
+
+                <div class="dropdown dropright mt-1">
+                  <button class="btn btn-outline-danger btn-white dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Date</button>
+                  <div class="dropdown-menu p-3">
+                    <!-- checkbox -->
+                    <input type="checkbox">
+                    <label>Anni '30</label><br>
+                    <input type="checkbox">
+                    <label>Anni '40</label><br>
+                    <input type="checkbox">
+                    <label>Anni '50</label><br>
+                    <input type="checkbox">
+                    <label>Anni '60</label><br>
+                    <input type="checkbox">
+                    <label>Anni '70</label><br>
+                    <button type="button" class="btn btn-danger mt-2">Filtra</button>
+                  </div>
+                </div>
+
+                <div class="dropdown dropright mt-1">
+                  <button class="btn btn-outline-danger btn-white dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lingua originale</button>
+                  <div class="dropdown-menu p-3">
+                    <input type="checkbox">
+                    <label>Italiano</label><br>
+                    <input type="checkbox">
+                    <label>Francese</label><br>
+                    <input type="checkbox">
+                    <label>Spagnolo</label><br>
+                    <button type="button" class="btn btn-danger mt-2">Filtra</button>
+                  </div>
+                </div>
+              </div>
+            </div>     
+          </div>
+        </div>
+        <!--FINE COLONNA SX-->
+        <!--INIZIO COLONNA CENTRO-->
+        <div class="col-md-6">
+            <div class="card-deck">
+            <div class="card border-danger">
+              <img src="l'animadeglialtri.jpeg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">L'anima degli altri</h5>
+                <p class="card-text">Maglione, Roma, 1935</p>
+                <a href="#" class="btn btn-danger">Vai all'opera</a>
+              </div>
+            </div>
+            <div class="card border-danger">
+              <img src="iosuopadre.jpeg" style="height: 270px" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Io, suo padre</h5>
+                <p class="card-text">Lanciano, Carabba, 1936</p>
+                <a href="#" class="btn btn-danger">Vai all'opera</a>
+              </div>
+            </div>
+            <div class="card border-danger">
+              <img src="nessunotornaindietro.jpeg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Nessuno torna indietro</h5>
+                <p class="card-text">Milano, Mondadori, 1938</p>
+                <a href="#" class="btn btn-danger">Vai all'opera</a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card-deck border-danger">
+            <div class="card border-danger">
+              <img src="dallapartedilei.jpeg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Dalla parte di lei</h5>
+                <p class="card-text">Milano, Mondadori, 1949</p>
+                <a href="#" class="btn btn-danger">Vai all'opera</a>
+              </div>
+            </div>
+            <div class="card border-danger">
+              <img src="quadernoproibito.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Quaderno proibito</h5>
+                <p class="card-text">Milano, Mondadori, 1952</p>
+                <a href="item.html" class="btn btn-danger">Vai all'opera</a>
+              </div>
+            </div>
+            <div class="card border-danger">
+              <img src="quadernoproibitocommedia.jpeg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Quaderno proibito - Commedia in due tempi, dal romanzo omonimo</h5>
+                <p class="card-text">Milano, Mondadori, 1961</p>
+                <a href="#" class="btn btn-danger">Vai all'opera</a>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card-deck">
+            <div class="card border-danger">
+              <img src="labambolona.jpeg" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">La bambolona</h5>
+                <p class="card-text">Milano, Mondadori, 1967</p>
+                <a href="#" class="btn btn-danger">Vai all'opera</a>
+              </div>
+            </div>
+            <div class="card border-danger">
+              <img src="chansons.jpeg" style="height: 250px" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Chansons des filles de Mai</h5>
+                <p class="card-text">Paris, Seuil, 1968</p>
+                <a href="#" class="btn btn-danger">Vai all'opera</a>
+              </div>
+            </div>
+            <div class="card border-danger">
+              <img src="leragazzedimaggio.jpeg" style="height: 250px" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Le ragazze di maggio - traduzione d'autrice di "Chansons des filles de Mai"</h5>
+                <p class="card-text">Milano, Mondadori, 1970</p>
+                <a href="#" class="btn btn-danger">Vai all'opera</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--FINE COLONNA CENTRO-->
+        <!--INIZIO COLONNA DX-->
+        <div class="col-md-3">
+         <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                      <form class="form-inline mb-4">
+                  <div class="form-group">
+                    <input type="opera" class="form-control" placeholder="Cerca nell'opera...">
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-danger">Cerca</button>
+                </form>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12"> 
+                <div class="card border-danger">
+                  <img src="disegno.webp" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Alba de C&#233;spedes</h5>
+                    <p class="card-text">Scopri i dati dell'autrice</p>
+                    <a href="autore.html" class="btn btn-danger">Vai alla pagina dell'autrice</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card border-danger">
+                  <img src="adcimage.webp" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Alba de C&#233;spedes</h5>
+                    <p class="card-text">Scopri la biografia dell'autrice</p>
+                    <a href="biografia.html" class="btn btn-danger">Vai alla biografia</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card border-danger">
+                  <img src="adcimg4.jpeg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Interviste</h5>
+                    <p class="card-text">Scopri le interviste relative ad Alba de C&#233;spedes</p>
+                    <a href="biografia.html" class="btn btn-danger">Vai alle interviste</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <!--FINE COLONNA DX-->
+      </div>
+    </div>    
+  </section>
+
+  <br>
+  <br>
+  <br>   
+
+  <footer>
+    <br><br>  
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <h3>Creative commons</h3>
+          <br>
+          <p>Quest'opera &#232; distribuita con Licenza: 
+            <i><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/it/" target="_blank" style="color:white">Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Italia.</a></i></p>
+            <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/it" target="_blank"/><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/it/88x31.png"/></a>
+
+        </div>
+        <div class="col-md-3">
+          <h3>Credits</h3>
+          <br>
+          <p>Il prototipo del sito &#232; stato pensato e realizzato da Sofia Pellicciotti, nell'ambito di un progetto di Digital Humanities presso l'Universit&#224; di Bologna</p>
+          <p><i>email: sofiapellicciotti@gmail.com</i></p>
+          <p><i>telefono: 3404581051</i></p>
+          <p>Per altre info vedi la sezione <a href="#" style="color:white">Credits</a></p>
+        </div>
+        <div class="col-md-3">
+          <h3>Archivio Fondazione Mondadori</h3>
+          <p>L’archivio, di interessse storico e culturale, &#232; stato donato alla Fondazione Mondadori nel 2009.</p>
+          <p><a href="https://www.fondazionemondadori.it/#lettere-alleditore-alba-de-cespedes-e-gianna-manzini-autrici-mondadori" style="color:white">Sito ufficale Fondazione Mondadori</a></p>
+          <p>Informazioni di contatto:</p>
+          <p><i>Via Riccione 8 20156 Milano</i></p>
+                    <p><i>tel 02.39273061</i></p>
+          <p><i>e-mail: info@fondazionemondadori.it</i></p> 
+        </div>
+        <div class="col-md-3">
+          <h3>Dove si trova l'archivio</h3><br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.4723011052192!2d9.148231950314187!3d45.50057023893567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c0ffbe3cb5cb%3A0x1f52200fa3377665!2sFondazione%20Arnoldo%20e%20Alberto%20Mondadori!5e0!3m2!1sit!2sit!4v1652965466512!5m2!1sit!2sit" width="270px" height="250px" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        </div>
+      </div>
+    </div>
+    <hr>
+     <p style="text-size: 10px"> &copy; 2022 Sofia Pellicciotti, <i>sofiapellicciotti@gmail.com</i></p>
+    </footer>
+    <!--BOOTSTRAP JS-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+</html>

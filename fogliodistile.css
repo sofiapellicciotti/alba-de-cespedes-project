@@ -1,0 +1,142 @@
+/*ELEMENTI*/
+
+header {
+	font-family: "Georgia", sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	width: 100%;
+}
+
+
+h1 {
+	font-family:"Georgia", sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	padding-left: 20px;
+
+}
+
+
+body {
+	background-color: #ffffff; 
+}
+
+
+h2 {
+	font-family:"Georgia", sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 25px;
+	color: #dc3545;
+}
+
+footer {
+	background-color: #dc3545;
+	color: white;
+	font-family:"Georgia", sans-serif;
+	margin: -20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+h4 {
+	font-family:"Georgia", sans-serif;
+	font-weight: italic;
+	font-size: 18px;
+	text-align: center;
+	color: #dc3545;
+
+}
+h5 {
+	font-family:"Georgia", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	color: #dc3545;
+}
+
+p {
+	font-weight: italic;
+	font-size: 15px;
+	
+}
+
+
+/*CLASSI*/
+
+
+
+.breadcrumb { 
+	background: #dc3545; 
+	font-size: 15px; 
+	color: white; 
+	margin-left: 10px;
+}
+
+
+.card {
+	padding: 10px;
+}
+
+.card-text {
+	text-align: left;
+
+}
+
+.poesia {
+		text-align: center;
+		font-size: 25px;
+		font-style: italic;
+		font-family: "Georgia", sans-serif;
+		color: #dc3545
+
+}
+
+.asidecredits {
+	width: 85%;
+}
+
+/*ID*/
+
+#carousel{
+	margin-top: 80px;
+}
+
+#opere {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#leamiche {
+	position: center;
+	width: 540px;
+	height: 315px
+}
+
+#cardautrice {
+	width: 85%;
+}
+
+#cardbio{
+	width: 85%;
+}
+#cardintervista{
+	width: 85%;
+}
+
+#cardsalotto{
+	width: 85%;
+	margin-left: 10px;
+}
+
+
+
